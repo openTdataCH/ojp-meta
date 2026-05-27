@@ -1,0 +1,75 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+title: "[Feature]: "
+labels:
+  - ojp-feature-request
+
+body:
+  - type: input
+    id: issue_title
+    attributes:
+      label: Feature title
+      description: Short summary of the feature request
+    validations:
+      required: true
+
+  - type: input
+    id: organisation
+    attributes:
+      label: Organisation
+      placeholder: SBB / BLS / ZVV / other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Stage
+      options:
+        - PROD
+        - INT
+        - TEST
+    validations:
+      required: true
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      options:
+        - OJP v2
+        - OJP v1
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe the requested feature
+      placeholder: |
+        What problem does this solve?
+        How should it work?
+        Steps to reproduce ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: code
+    attributes:
+      label: Code / Logs
+      description: Paste relevant XML request / response
+      render: shell
+      placeholder: |
+        XML Request / Response
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Mockups / Screenshots
+      description: Drag & drop screenshots or images here
+      placeholder: Attach screenshots if relevant
+    validations:
+      required: false
