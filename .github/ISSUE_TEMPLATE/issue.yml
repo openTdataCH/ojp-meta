@@ -2,7 +2,7 @@ name: Incident
 description: Report a problem or issue
 title: "[Bug]: "
 labels:
-  - bug
+  - ojp-incident
 
 body:
   - type: input
