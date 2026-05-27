@@ -4,6 +4,10 @@ title: "[OJP Question]: "
 labels:
   - ojp-question
 
+assignees:
+  - vasile
+  - AndreasAtSBB
+
 body:
   - type: input
     id: question_title

@@ -4,6 +4,10 @@ title: "[OJP Bug]: "
 labels:
   - ojp-incident
 
+assignees:
+  - vasile
+  - AndreasAtSBB
+
 body:
   - type: input
     id: issue_title

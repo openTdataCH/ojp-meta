@@ -4,6 +4,10 @@ title: "[OJP Feature]: "
 labels:
   - ojp-feature-request
 
+assignees:
+  - vasile
+  - u233336
+
 body:
   - type: input
     id: issue_title
