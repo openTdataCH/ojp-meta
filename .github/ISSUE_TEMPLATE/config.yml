@@ -3,3 +3,7 @@ contact_links:
   - name: OJP Cookbook
     url: https://opentransportdata.swiss/en/cookbook/open-journey-planner-ojp/
     about: OJP current implementation (external link)
+  - name: OJP Status
+    url: https://status.opentransportdata.swiss/
+    about: OJP current operating status (external link)
+    
