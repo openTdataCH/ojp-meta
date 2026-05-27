@@ -10,14 +10,6 @@ assignees:
 
 body:
   - type: input
-    id: issue_title
-    attributes:
-      label: Issue title
-      description: Short summary of the issue
-    validations:
-      required: true
-
-  - type: input
     id: organisation
     attributes:
       label: Organisation
