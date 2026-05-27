@@ -8,6 +8,9 @@ assignees:
   - vasile
   - u233336
 
+projects:
+  - openTdataCH/5
+
 body:
   - type: input
     id: organisation
