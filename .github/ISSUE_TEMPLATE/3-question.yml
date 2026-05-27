@@ -1,5 +1,5 @@
-name: Question
-description: Ask a question or request clarification
+name: OJP Question
+description: Ask a question or request clarification for OJP
 title: "[OJP Question]: "
 labels:
   - ojp-question

@@ -1,5 +1,5 @@
-name: Incident
-description: Report a problem or issue
+name: OJP Incident
+description: Report a problem or issue with OJP
 title: "[OJP Bug]: "
 labels:
   - ojp-incident
