@@ -22,8 +22,10 @@ body:
     attributes:
       label: BAAu
       options:
-        - "1"
-        - "2"
+        - cucu
+        - bau
+    validations:
+      required: true
 
   - type: dropdown
     id: stage
