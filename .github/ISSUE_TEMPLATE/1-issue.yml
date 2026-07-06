@@ -17,6 +17,13 @@ body:
     validations:
       required: true
 
+  - id: foo
+    attributes:
+      label: BAAu
+      options:
+        - "1"
+        - "2"
+
   - type: dropdown
     id: stage
     attributes:
