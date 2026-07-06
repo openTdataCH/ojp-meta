@@ -17,7 +17,8 @@ body:
     validations:
       required: true
 
-  - id: foo
+  - type: dropdown
+    id: foo
     attributes:
       label: BAAu
       options:
