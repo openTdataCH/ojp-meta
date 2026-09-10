@@ -51,6 +51,17 @@ body:
       required: true
 
   - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostic information
+      description: Automatically filled by the OJP demo app. No editing needed.
+      placeholder: |
+        Page URL, OJP and SDK versions, browser and screen information
+        Request / response XML URLs
+    validations:
+      required: false
+
+  - type: textarea
     id: code
     attributes:
       label: Code / Logs
