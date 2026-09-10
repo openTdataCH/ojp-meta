@@ -54,7 +54,7 @@ body:
     id: diagnostics
     attributes:
       label: Diagnostic information
-      description: Automatically filled by the OJP demo app. No editing needed.
+      description: "Warning: If this field is prefilled, do not edit it. A GitHub issue-form bug can overwrite your changes with the original text. Use Details above for your description."
       placeholder: |
         Page URL, OJP and SDK versions, browser and screen information
         Request / response XML URLs
