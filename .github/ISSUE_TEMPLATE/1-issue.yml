@@ -62,17 +62,6 @@ body:
       required: false
 
   - type: textarea
-    id: code
-    attributes:
-      label: Code / Logs
-      description: Paste relevant XML request / response
-      render: shell
-      placeholder: |
-        XML Request / Response
-    validations:
-      required: false
-
-  - type: textarea
     id: screenshots
     attributes:
       label: Screenshots
