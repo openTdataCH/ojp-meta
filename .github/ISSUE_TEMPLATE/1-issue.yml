@@ -22,7 +22,7 @@ body:
     attributes:
       label: Stage
       options:
-        - PROD
+        - PROD (default)
         - INT
         - TEST
     validations:
@@ -33,7 +33,7 @@ body:
     attributes:
       label: Version
       options:
-        - OJP v2
+        - OJP v2 (default)
         - OJP v1
     validations:
       required: true
